@@ -19,17 +19,8 @@ producer = producer()
 producer.publish_message('raw', b'Hello, World!')
 producer.publish_message('raw2', b'Hello, World!')
 producer.publish_message('raw', b'Hello, World!')
-
 producer.publish_message('raw', b'Hello, World!')
-
 producer.publish_message('raw2', b'Hello, World!')
 
 
 		
-
-# producer = KafkaProducer(bootstrap_servers='localhost:9092')
-# producer.send('raw', b'Hello, World!')
-# producer.send('raw2', b'Hello, World!')
-# producer.flush()
-
-# producer.send('sample', key=b'message-two', value=b'This is Kafka-Python')
